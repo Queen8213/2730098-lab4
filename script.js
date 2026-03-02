@@ -1,12 +1,12 @@
 const fetchPic = async () => {
 
     const Card = document.getElementById("country-info");
-    const infoCard = document.getElementById("country-input");
+    const countryName = document.getElementById("country-input").value;
     const borderCountryCard = document.getElementById("bordering-countries");
     const errCard = document.getElementById("error-message");
     const spinner = document.getElementById("loading-spinner");
 
-    const countryName = infoCard.value;
+   
 
     Card.innerHTML = "";
     borderCountryCard.innerHTML = "";
